@@ -1,0 +1,13 @@
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\bin\Debug\netcoreapp3.1\1. Exponentiation.exe
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\bin\Debug\netcoreapp3.1\1. Exponentiation.deps.json
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\bin\Debug\netcoreapp3.1\1. Exponentiation.runtimeconfig.json
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\bin\Debug\netcoreapp3.1\1. Exponentiation.runtimeconfig.dev.json
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\bin\Debug\netcoreapp3.1\1. Exponentiation.dll
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\bin\Debug\netcoreapp3.1\1. Exponentiation.pdb
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\obj\Debug\netcoreapp3.1\1. Exponentiation.csprojAssemblyReference.cache
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\obj\Debug\netcoreapp3.1\1. Exponentiation.csproj.CoreCompileInputs.cache
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\obj\Debug\netcoreapp3.1\1. Exponentiation.AssemblyInfoInputs.cache
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\obj\Debug\netcoreapp3.1\1. Exponentiation.AssemblyInfo.cs
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\obj\Debug\netcoreapp3.1\1. Exponentiation.dll
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\obj\Debug\netcoreapp3.1\1. Exponentiation.pdb
+C:\Users\COMP\Documents\GitHub\Structure-C-\1. Exponentiation\1. Exponentiation\1. Exponentiation\obj\Debug\netcoreapp3.1\1. Exponentiation.genruntimeconfig.cache
