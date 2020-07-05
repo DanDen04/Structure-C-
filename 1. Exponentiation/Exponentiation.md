@@ -1,53 +1,65 @@
-# Exponentiation
-1. Создание класса **DoubleInDeg**(Дробное в степень)
-2. Создание приватных полей *First* и *Second* в классе **DoubleInDeg**
-3. Создание конструктора(DoubleInDeg(first, second))
-```csharp
-        public DoubleInDeg(double first, int second)
-        {
-            this.First = first;
-            this.Second = second;
-        }
-```
-4. Создание метода **Power**. (double())
-```csharp
-        public double Power()
-        {
-            double result = 1.0;
+# Exponentiation  
+![](https://sun1-99.userapi.com/GX0lClJf6M7Lf32-EsWlvmtx0L-N9yQDGE9WBA/nWRdCppkGns.jpg)  
+class **DoubleInDeg**  
+*Описание*: сущность, представляющая из себя дробное число в степени.
 
-            if (this.Second >= 0)
-            {
-                for (int i = 0; i < this.Second; i++)
-                {
-                    result *= this.First;
-                }
-            }
-            else
-            {
-                for (int i = 0; i > this.Second; i--)
-                {
-                    result *= (1 / this.First);
-                }
-            }
+*private*:  
+        double First; — свойство, которое описывает число.  
+        int Second; — свойство, которое описывает степень.
 
-            return result;
-        }
-```
-5. Создание класса **UnitTestDoubleInDeg**.
-6. Создание метода *TestDIG()* в классе **UnitTestDoubleInDeg**.
-7. Создание объекта **doubleInDeg** и помещение в него значений.
+*public*:  
+        double Power();  
+        *Описание*: метод, который на выходе даёт число возведённое в степень.  
 ```csharp
-DoubleInDeg doubleInDeg1 = new DoubleInDeg(2, 3);
+        /* На вход:
+        First: 4
+        Second: 2
+        /*
+        /* На выходе:
+        16
+        /*
 ```
-8. Проверка
+
+void DisplayInfo()  
+*Описание*: метод вывода сущности на консоль.  
 ```csharp
-            if (doubleInDeg1.Power() != 8)
-            {
-                throw new Exception();
-            }
+        /* На вход:
+        First: 4
+        Second: 2
+        /*
+        /* При вызове метода DisplayInfo();
+        16
+        /*
 ```
-9. Создание объекта **unitTestDoubleInDeg** в классе **Program** и обращение к методу *TestDIG()*.
+
+void Read()  
+*Описание*: метод ввода для сущности.  
 ```csharp
-            UnitTestDoubleInDeg unitTestDoubleInDeg = new UnitTestDoubleInDeg();
-            unitTestDoubleInDeg.TestDIG();
+        // При вызове запрашивает ввод первого(First) и второго(Second) чисел.
+        // Затем записывает данные в объект.
 ```
+
+***
+
+```csharp
+            DoubleInDeg obj = new DoubleInDeg();
+            
+            obj.Read();  // Вводим данные(First, Second)
+            /* Напрмер
+            2
+            4
+            */
+            
+            obj.Power();  // Вызываем метод, который вернёт результат.
+            
+            obj.DisplayInfo(); // Вывод результата в консоль.
+            
+            /* Вывод на консоль
+            2
+            4
+            16
+            */
+```
+
+
+
