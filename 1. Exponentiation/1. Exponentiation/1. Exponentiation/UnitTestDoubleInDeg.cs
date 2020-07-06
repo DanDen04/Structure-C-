@@ -8,16 +8,16 @@ namespace _1._Exponentiation
     {
         public void TestDIG()
         {
-            DoubleInDeg doubleInDeg1 = new DoubleInDeg(2, 3);
+            //DoubleInDeg doubleInDeg1 = new DoubleInDeg(2, 3);
 
-            if (doubleInDeg1.Power() != 8)
-            {
-                throw new Exception();
-            }
-            else
-            {
-                Console.WriteLine(doubleInDeg1.Power());
-            }
+            //if (doubleInDeg1.Power() != 8)
+            //{
+            //    throw new Exception();
+            //}
+            //else
+            //{
+            //    Console.WriteLine(doubleInDeg1.Power());
+            //}
         }
     }
 }

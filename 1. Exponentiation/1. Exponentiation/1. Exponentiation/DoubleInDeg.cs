@@ -7,12 +7,12 @@ namespace _1._Exponentiation
     public class DoubleInDeg
     {
         private double First { get; set; }
-        private double Second { get; set; }
+        private int Second { get; set; }
 
-        public DoubleInDeg(double first, int second)
+        public void Read()
         {
-            this.First = first;
-            this.Second = second;
+            this.First = double.Parse(Console.ReadLine());
+            this.Second = int.Parse(Console.ReadLine());
         }
 
         public double Power()
@@ -34,7 +34,13 @@ namespace _1._Exponentiation
                 }
             }
 
-            return result;
+            this.First = result;
+            return this.First;
+        }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine(this.First);
         }
     }
 }

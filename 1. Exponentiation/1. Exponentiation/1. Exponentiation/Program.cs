@@ -6,8 +6,10 @@ namespace _1._Exponentiation
     {
         static void Main(string[] args)
         {
-            UnitTestDoubleInDeg unitTestDoubleInDeg = new UnitTestDoubleInDeg();
-            unitTestDoubleInDeg.TestDIG();
+            DoubleInDeg obj = new DoubleInDeg();
+            obj.Read();
+            obj.Power();
+            obj.DisplayInfo();
         }
     }
 }
