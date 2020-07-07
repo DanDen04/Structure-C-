@@ -11,7 +11,9 @@ namespace _1._Exponentiation
 
         public void Read()
         {
+            Console.Write("Введите число: ");
             this.First = double.Parse(Console.ReadLine());
+            Console.Write("Введите степень: ");
             this.Second = int.Parse(Console.ReadLine());
         }
 
@@ -34,13 +36,12 @@ namespace _1._Exponentiation
                 }
             }
 
-            this.First = result;
-            return this.First;
+            return result;
         }
 
-        public void DisplayInfo()
+        public string DisplayInfo()
         {
-            Console.WriteLine(this.First);
+            return $"{this.First} ^ {this.Second}";
         }
     }
 }

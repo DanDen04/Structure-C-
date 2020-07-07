@@ -8,8 +8,7 @@ namespace _1._Exponentiation
         {
             DoubleInDeg obj = new DoubleInDeg();
             obj.Read();
-            obj.Power();
-            obj.DisplayInfo();
+            Console.WriteLine($"{obj.DisplayInfo()} = {obj.Power()}");
         }
     }
 }
