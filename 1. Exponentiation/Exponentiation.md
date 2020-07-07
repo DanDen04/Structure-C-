@@ -23,15 +23,14 @@ void Read()
 double Power();  
         *Описание*: метод, который возводит число в степень и возвращает результат.
 ```csharp
-        /*
-        В переменную *result* записывается результат.
-        public double Power()
-        {
-            double result = 1.0;
-
-            return result;
-        }        
-        /*
+        /* 
+        Создание объекта: DoubleInDeg obj = obj DoubleInDeg();
+        Подключние к методу Power: obj.Power()
+        Пример:
+        При First = 2
+        Second = 3
+        Результат: 8
+        */
 ```
 
 void DisplayInfo()  
